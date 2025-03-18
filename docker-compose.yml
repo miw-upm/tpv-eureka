@@ -1,7 +1,7 @@
 services:
   tpv-eureka-server:
     build: .
-    image: tpv-eureka:1.0.0
+    image: tpv-eureka:1.1.0
     container_name: tpv-eureka-server
     restart: always
     ports:
