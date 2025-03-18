@@ -1,8 +1,8 @@
 services:
-  tpv-eureka-server:
+  tpv-eureka:
     build: .
     image: tpv-eureka:1.1.0
-    container_name: tpv-eureka-server
+    container_name: tpv-eureka
     restart: always
     ports:
       - "8761:8761"
