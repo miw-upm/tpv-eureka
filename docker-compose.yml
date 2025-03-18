@@ -1,0 +1,16 @@
+services:
+  tpv-eureka-server:
+    build: .
+    image: tpv-eureka:1.0.0
+    container_name: tpv-eureka-server
+    restart: always
+    ports:
+      - "8761:8761"
+    networks:
+      - miw
+
+networks:
+  miw:
+    external: true
+
+#> docker compose up --build -d
