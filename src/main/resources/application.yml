@@ -30,6 +30,8 @@ logging:
     es.upm.miw: DEBUG
 
 eureka:
+  instance:
+    prefer-ip-address: true
   server:
     enable-self-preservation: true
     eviction-interval-timer-in-ms: 30000
