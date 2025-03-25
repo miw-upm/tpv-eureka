@@ -42,14 +42,13 @@
 		<!-- Encode -->
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-		<project.resources.sourceEncoding>UTF-8</project.resources.sourceEncoding>
 		<!-- Java -->
 		<java.version>21</java.version>
 		<deploy>${project.artifactId}-${project.version}</deploy>
 		<!-- coverage report -->
 		<jacoco.version>0.8.12</jacoco.version>
 		<!-- Official Plugin Sonar -->
-		<sonar-maven-plugin-version>4.0.0.4121</sonar-maven-plugin-version>
+		<sonar-maven-plugin-version>5.0.0.4389</sonar-maven-plugin-version>
 		<!-- Spring cloud -->
 		<spring-cloud.version>2024.0.1</spring-cloud.version>
 	</properties>
