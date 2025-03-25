@@ -8,7 +8,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.2</version>
+		<version>3.4.4</version>
 		<relativePath/>
 	</parent>
 
@@ -51,7 +51,7 @@
 		<!-- Official Plugin Sonar -->
 		<sonar-maven-plugin-version>4.0.0.4121</sonar-maven-plugin-version>
 		<!-- Spring cloud -->
-		<spring-cloud.version>2024.0.0</spring-cloud.version>
+		<spring-cloud.version>2024.0.1</spring-cloud.version>
 	</properties>
 
 	<dependencies>
