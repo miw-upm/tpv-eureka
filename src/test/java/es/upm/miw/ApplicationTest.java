@@ -8,9 +8,9 @@ import org.springframework.test.context.ActiveProfiles;
 @ActiveProfiles("test")
 class ApplicationTest {
 
-	@Test
-	void contextLoads() {
-		// Empty
-	}
+    @Test
+    void contextLoads() {
+        // Empty
+    }
 
 }
